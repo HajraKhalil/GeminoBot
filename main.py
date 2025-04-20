@@ -5,7 +5,7 @@ import traceback
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(dotenv_path="config/.env")
 
 app = Flask(__name__, static_folder="static", template_folder="templates")
 
