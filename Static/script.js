@@ -53,5 +53,5 @@ function addMessage(className, text) {
         chatBody.removeChild(messages[0]);
     }
 
-    chatBody.scrollTop = chatBody.scrollHeight; // Auto-scroll
+    chatBody.scrollTop = chatBody.scrollHeight; 
 }
