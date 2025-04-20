@@ -20,7 +20,7 @@ CORS(app, resources={
 
 # Google Gemini API configuration
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-MODEL_NAME = "gemini-1.5-flash"  # Fast, multimodal Gemini model
+MODEL_NAME = "gemini-1.5-flash"  
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL_NAME}:generateContent"
 
 # Serve the index.html page
